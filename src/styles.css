@@ -1,0 +1,24 @@
+/* Updated CSS for the chessboard-like structure */
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px; /* Adjust according to your preference */
+  height: 200px; /* Adjust according to your preference */
+}
+
+.square {
+  width: 30%; /* Each square takes 1/3 of the board width */
+  height: 30%; /* Each square takes 1/3 of the board height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48pt;
+}
+
+.square:nth-child(odd) {
+  background-color: #eee;
+}
+
+.square:nth-child(even) {
+  background-color: #ccc;
+}
